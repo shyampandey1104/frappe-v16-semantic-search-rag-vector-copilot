@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "frappe_semantic_rag"
+version = "16.0.0"
+description = "Frappe v16 Vector Search & Semantic RAG Copilot - Official Frappe Framework & ERPNext v16 App"
+authors = [{ name = "Shyamkumar Pandey", email = "shyampandey1104@gmail.com" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "frappe>=16.0.0"
+]

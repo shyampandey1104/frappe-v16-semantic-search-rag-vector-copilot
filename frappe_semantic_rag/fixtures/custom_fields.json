@@ -1,0 +1,9 @@
+[
+ {
+  "dt": "Frappe v16 Vector Search & Semantic RAG Copilot Entry",
+  "fieldname": "custom_v16_verified",
+  "fieldtype": "Check",
+  "label": "Version 16 Verified",
+  "insert_after": "status"
+ }
+]

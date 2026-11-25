@@ -1,0 +1,58 @@
+{
+ "charts": [
+  {
+   "chart_name": "Frappe v16 Vector Search & Semantic RAG Copilot Analytics",
+   "label": "Frappe v16 Vector Search & Semantic RAG Copilot Analytics"
+  }
+ ],
+ "content": "[{\"type\": \"header\", \"data\": {\"text\": \"Frappe v16 Vector Search & Semantic RAG Copilot v16 Workspace\", \"level\": 4}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Operations\"}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Audit & Settings\"}}]",
+ "creation": "2026-04-01 10:00:00.000000",
+ "doctype": "Workspace",
+ "label": "Frappe v16 Vector Search & Semantic RAG Copilot",
+ "links": [
+  {
+   "label": "v16 Operations",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Frappe v16 Vector Search & Semantic RAG Copilot Entry",
+   "label": "Frappe v16 Vector Search & Semantic RAG Copilot Entry",
+   "link_to": "Frappe v16 Vector Search & Semantic RAG Copilot Entry",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "label": "Reports & Audits",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Frappe v16 Vector Search & Semantic RAG Copilot Audit Log",
+   "label": "Frappe v16 Vector Search & Semantic RAG Copilot Audit Log",
+   "link_to": "Frappe v16 Vector Search & Semantic RAG Copilot Audit Log",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "is_query_report": 1,
+   "label": "Frappe v16 Vector Search & Semantic RAG Copilot Summary",
+   "link_to": "Frappe v16 Vector Search & Semantic RAG Copilot Summary",
+   "link_type": "Report",
+   "type": "Link"
+  },
+  {
+   "label": "Configuration",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Frappe v16 Vector Search & Semantic RAG Copilot Settings",
+   "label": "Frappe v16 Vector Search & Semantic RAG Copilot Settings",
+   "link_to": "Frappe v16 Vector Search & Semantic RAG Copilot Settings",
+   "link_type": "DocType",
+   "type": "Link"
+  }
+ ],
+ "module": "Frappe_Semantic_Rag_Core",
+ "name": "Frappe v16 Vector Search & Semantic RAG Copilot",
+ "public": 1,
+ "title": "Frappe v16 Vector Search & Semantic RAG Copilot"
+}

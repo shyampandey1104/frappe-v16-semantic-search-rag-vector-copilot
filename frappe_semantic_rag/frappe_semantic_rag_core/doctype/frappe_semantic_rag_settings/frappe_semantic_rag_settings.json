@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "creation": "2026-04-01 10:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "enabled",
+  "api_endpoint",
+  "auth_token",
+  "sync_frequency",
+  "batch_size"
+ ],
+ "fields": [
+  {
+   "default": "1",
+   "fieldname": "enabled",
+   "fieldtype": "Check",
+   "label": "Enable v16 Integration"
+  },
+  {
+   "default": "https://api.frappe_semantic_rag.v16.internal",
+   "fieldname": "api_endpoint",
+   "fieldtype": "Data",
+   "label": "Endpoint URL",
+   "reqd": 1
+  },
+  {
+   "fieldname": "auth_token",
+   "fieldtype": "Password",
+   "label": "API Secret Token"
+  },
+  {
+   "default": "Realtime",
+   "fieldname": "sync_frequency",
+   "fieldtype": "Select",
+   "label": "Frequency",
+   "options": "Realtime\\nHourly\\nDaily"
+  },
+  {
+   "default": "100",
+   "fieldname": "batch_size",
+   "fieldtype": "Int",
+   "label": "Batch Size"
+  }
+ ],
+ "issingle": 1,
+ "module": "Frappe_Semantic_Rag_Core",
+ "name": "Frappe v16 Vector Search & Semantic RAG Copilot Settings"
+}

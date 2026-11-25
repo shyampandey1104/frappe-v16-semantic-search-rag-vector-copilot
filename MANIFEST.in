@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include frappe_semantic_rag *.css
+recursive-include frappe_semantic_rag *.csv
+recursive-include frappe_semantic_rag *.html
+recursive-include frappe_semantic_rag *.ico
+recursive-include frappe_semantic_rag *.js
+recursive-include frappe_semantic_rag *.json
+recursive-include frappe_semantic_rag *.md
+recursive-include frappe_semantic_rag *.png
+recursive-include frappe_semantic_rag *.py
+recursive-include frappe_semantic_rag *.svg
+recursive-include frappe_semantic_rag *.txt
+recursive-exclude frappe_semantic_rag *.pyc

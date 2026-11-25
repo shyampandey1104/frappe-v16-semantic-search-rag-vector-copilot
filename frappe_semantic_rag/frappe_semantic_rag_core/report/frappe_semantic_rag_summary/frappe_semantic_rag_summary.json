@@ -1,0 +1,12 @@
+{
+ "add_total_row": 1,
+ "columns": [],
+ "creation": "2026-04-01 10:00:00.000000",
+ "doctype": "Report",
+ "is_standard": "Yes",
+ "module": "Frappe_Semantic_Rag_Core",
+ "name": "Frappe v16 Vector Search & Semantic RAG Copilot Summary",
+ "ref_doctype": "Frappe v16 Vector Search & Semantic RAG Copilot Entry",
+ "report_name": "Frappe v16 Vector Search & Semantic RAG Copilot Summary",
+ "report_type": "Script Report"
+}
